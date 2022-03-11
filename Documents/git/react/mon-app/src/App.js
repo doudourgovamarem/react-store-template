@@ -1,6 +1,7 @@
 import HeaderPerso from './components/headerP'
 import logo from './logo.svg';
 import './App.css';
+import ObjetsListf from './components/objetsList.js';
 import FooterPerso from './components/footerP';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <ObjetsListf />
       <FooterPerso />
     </div>
   );
