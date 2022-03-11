@@ -1,0 +1,11 @@
+
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageLogo {
+    width: 10.625rem;
+    margin: auto 0;
+    height: 3.125rem;
+}

@@ -1,9 +1,12 @@
+import HeaderPerso from './components/headerP'
 import logo from './logo.svg';
 import './App.css';
+import FooterPerso from './components/footerP';
 
 function App() {
   return (
     <div className="App">
+      <HeaderPerso />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,6 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <FooterPerso />
     </div>
   );
 }
